@@ -5,12 +5,12 @@ switch (numOrStr) {
       console.log('вы отменили');
       break;
     case !isNaN(numOrStr) || numOrStr:
-    console.log(' number is Ba_NaN');
-    break;
+      console.log(' number is Ba_NaN');
+      break;
     case !(numOrStr.trim() === '') || numOrStr:
-    console.log('Empty String');
-    break;
+      console.log('Empty String');
+      break;
     default:
-    console.log('OK!');
-    break;
+      console.log('OK!');
+      break;
   }
